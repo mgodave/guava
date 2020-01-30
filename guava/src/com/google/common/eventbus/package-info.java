@@ -158,7 +158,7 @@
  *
  * // Class is typically registered by the container.
  * class EventBusChangeRecorder {
- *  }{@code @Subscribe void recordCustomerChange(ChangeEvent e) {
+ *   @Subscribe void recordCustomerChange(ChangeEvent e) {
  *     recordChange(e.getChange());
  *   }
  * }
